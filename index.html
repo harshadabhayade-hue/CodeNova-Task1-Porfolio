@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student developer portfolio showcasing skills, projects and contact information.">
+  <title>My Portfolio | Frontend Developer</title>
+  <link rel="stylesheet" href="task1.css">
+  <script src="task1.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home">My<span>Portfolio.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="navLinks">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme">☀️</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Harshada S. Bhayade</span></h1>
+        <h2>A Computer Engineering Student</h2>
+        <p>
+          I enjoy learning web development, creating attractive websites,
+          and turning creative ideas into useful digital experiences.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <span class="dots">● ● ●</span>
+          <p><span class="pink">const</span> developer = {</p>
+          <p>&nbsp; creative: <span class="green">true</span>,</p>
+          <p>&nbsp; learning: <span class="green">"every day"</span></p>
+          <p>};</p>
+          <p class="code-end">// Building my future 🚀</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-card">
+        <p>
+          I am a Computer Engineering student interested in frontend
+          development and creative problem-solving. I am currently
+          strengthening my skills in HTML, CSS and JavaScript by building
+          practical projects.
+        </p>
+        <p>
+          My goal is to create websites that are easy to use, responsive,
+          accessible and visually appealing.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I AM LEARNING</p>
+        <h2>My Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span>🌐</span>
+          <h3>HTML5</h3>
+          <p>Semantic webpage structure</p>
+        </article>
+        <article class="skill-card">
+          <span>🎨</span>
+          <h3>CSS3</h3>
+          <p>Styling and responsive layouts</p>
+        </article>
+        <article class="skill-card">
+          <span>⚡</span>
+          <h3>JavaScript</h3>
+          <p>Interactive webpage features</p>
+        </article>
+        <article class="skill-card">
+          <span>💻</span>
+          <h3>Problem Solving</h3>
+          <p>Learning through practice</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">✦</div>
+          <h3>Student Portfolio</h3>
+          <p>A responsive website to present my profile, skills and work.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">✧</div>
+          <h3>Interactive Quiz</h3>
+          <p>A quiz application with questions, instant feedback and scores.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">⌘</div>
+          <h3>Saarthi</h3>
+          <p>A Student counselling website helping 10th,12th,engineering students fing their right path by connecting them with verified counsellers.</p>
+          <div class="tags"><span>Design</span><span>Frontend</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">⚡</div>
+          <h3>Evolt</h3>
+          <p>A website helping e-vehicles users to know where is the nearby charging location and suggest them what are the activities nearby they can do while the vehicle is getting charged. </p>
+          <div class="tags"><span>Design</span><span>Frontend</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="about-card contact-card">
+        <p>Interested in my work or want to connect? Send me an email.</p>
+        <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=harshadabhayade@gmail.com" target="_blank"
+          rel="noopener noreferrer">
+          ✉ Send Me an Email
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed and developed by Harshada Bhayade</p>
+    <p>CodeNova Frontend Development Internship · 2026</p>
+  </footer>
+</body>
+
+</html>
