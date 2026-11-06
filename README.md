@@ -18,6 +18,8 @@ Technologies Used
 - HTML
 - CSS
 - JavaScript
+## Website Screenshot
+![Portfolio Website](portfolio.png)
 
 Live Demo
 
