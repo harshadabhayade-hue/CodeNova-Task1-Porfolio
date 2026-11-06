@@ -25,7 +25,7 @@ Live Demo
 
 GitHub Repository
 
-"View Source Code" (https://github.com/harshadabhayade-hue/CodeNova-Task1-Portfolio)
+"View Source Code" (https://github.com/harshadabhayade-hue/CodeNova-Task1-Porfolio)
 
 Internship
 
