@@ -21,7 +21,7 @@ Technologies Used
 
 Live Demo
 
-"View My Portfolio" (https://harshadabhayade-hue.github.io/CodeNova-Task1-Portfolio/)
+"View My Portfolio" (https://harshadabhayade-hue.github.io/CodeNova-Task1-Porfolio/)
 
 GitHub Repository
 
